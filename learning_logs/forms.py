@@ -2,6 +2,8 @@ from django import forms
 
 from .models import Topic, Entry
 
+# Added comment on 1/10/2025 to practice git commands 
+
 class TopicForm(forms.ModelForm):
     class Meta:
         model = Topic
