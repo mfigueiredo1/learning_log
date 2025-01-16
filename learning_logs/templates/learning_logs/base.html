@@ -8,22 +8,51 @@
   {% load django_bootstrap5 %}
   {% bootstrap_css %}
   {% bootstrap_javascript %}
+
   <style>
     body {
-      background-color: #1fcc1f !important; /* Change this to your desired background color */
+      background-color: #070707; /* Black background */
+      color: #ffffff; /* White text */
     }
+  
+    /* Ensure links are visible with appropriate colors */
+    a {
+      color: #1e90ff; /* Light blue for links */
+    }
+    a:hover {
+      color: #87ceeb; /* Lighter blue on hover */
+    }
+  
     .navbar {
-      background-color: #f1ef4f !important; /* Change this to your desired navbar color */
+      background-color: #ff0000; /* Navbar background color */
     }
-    .navbar .btn {
-      background-color: #0a0a0a !important; /* Change this to your desired button color */
-      color:   #1fcc1f !important;
+  
+    /* Specific styles for form inputs and buttons */
+    input, textarea, select, button {
+      background-color: #333; /* Dark input background */
+      color: #ffffff; /* White input text */
+      border: 1px solid #555; /* Light border for inputs */
     }
-    .navbar .btn:hover {
-      background-color: #1fcc1f !important; /* Change this to your desired button color */
-      color:   #0a0a0a !important;
+  
+    /* Placeholder text color */
+    ::placeholder {
+      color: #aaaaaa; /* Light gray for placeholders */
     }
+    .container-fluid.py-4 {
+      background-color: #ff0000; /* Red background */
+      color: #ffffff; /* White text */
+      border-radius: 8px; /* Optional: Rounded corners */
+      padding: 20px; /* Optional: Additional padding */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    }
+</style>
+
+  
+
   </style>
+
+
+
 
 </head>
 <body>
